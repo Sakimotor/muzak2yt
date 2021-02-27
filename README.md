@@ -1,5 +1,5 @@
 # muzak2yt
-Upload your favorite music albums directly on YouTube !
+Upload your favorite music albums directly to YouTube !
 
 Program written under Python 3.9
 
