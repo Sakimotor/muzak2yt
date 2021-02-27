@@ -39,3 +39,11 @@ metadata = {
                 "description": "Album: " + str(audio["album"]).strip('[\']') + "\nArtist(s): " + str(audio["artist"]).strip('[\']').replace("\"", "")
             }
 ```
+
+* If you don't want to upload the video to YouTube, comment out the following part of the code (I should probably make this into an option inside the program itself):
+
+```python
+uploader = YouTubeUploader(video_path, metadata_path)
+was_video_uploaded, video_id = uploader.upload()
+assert was_video_uploaded
+```
