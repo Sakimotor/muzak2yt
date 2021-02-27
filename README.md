@@ -15,7 +15,7 @@ The following modules need to be installed with pip :
 * mutagen==1.45.1
 * google_api_python_client==1.12.8
 
-To facilitate the process, you can run the command **pip install -r requirements.txt**
+To facilitate the process, you can clone the repository and run the command **pip install -r requirements.txt**
 
 Alternatively, you could install the whole script with the command **pip install muzak2yt**
 
