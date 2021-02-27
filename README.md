@@ -30,7 +30,7 @@ In addition, the following conditions need to be fullfiled :
 
 ## Additional Notes
 
-* If your video titles are messed up by the script, follow this guide : ["Title not setting correctly"](https://github.com/linouk23/youtube_uploader_selenium/issues/4)
+* If your video titles are messed up by the script, follow this guide : ["Title not setting correctly"](https://github.com/linouk23/youtube_uploader_selenium/issues/4) (The init.py file will be in your site-packages/youtube-uploader-selenium folder (you can run **python -c 'import site; print(site.getsitepackages())'** to get the location)
 * If you want ffmpeg to overwrite the existing mp4 files, replace the argument "-n" by "-y" in the **subprocess.call**
 * If you want to modify the way titles and descriptions are generated, edit the following lines :
 ```python
