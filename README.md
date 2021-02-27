@@ -40,7 +40,7 @@ metadata = {
             }
 ```
 
-* If you don't want to upload the video to YouTube, comment out the following part of the code (I should probably make this into an option inside the program itself):
+* If you don't want to upload the video to YouTube, comment out the following part of the code (I should probably handle this with an optionnal argument inside the program itself):
 
 ```python
 uploader = YouTubeUploader(video_path, metadata_path)
