@@ -17,6 +17,8 @@ The following modules need to be installed with pip :
 
 To facilitate the process, you can run the command **pip install -r requirements.txt**
 
+Alternatively, you could install the whole script with the command **pip install muzak2yt**
+
 In addition, the following conditions need to be fullfiled :
 
 * You must have [ffmpeg](https://ffmpeg.org/download.html) installed (and added to your PATH if you're on Windows)
